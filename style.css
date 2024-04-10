@@ -1,0 +1,32 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+
+#arriba {
+  background-color: gray;
+  padding: 50px;
+  height: 15%;
+}
+
+#abajo {
+  display: flex;
+  flex-direction: row;
+  height: 85%;
+
+}
+#izquierda {
+  width: 1000ppx;
+  padding: 30px;
+  background-color: lightgray;
+}
+
+#derecha {
+  flex: 1;
+  padding-top: 20px;
+  padding-left: 40px;
+  background-color: lightblue;
+}
